@@ -1,1 +1,5 @@
 # Flight-Delay-Data-Mining
+Our study aimed at understanding the factors that have impact on flight delays and tried to predict flight delays using machine learning models.
+<br />
+We used crawler to download the flight data from the Bureau of Transportation Statistics from October 2016 to September 2017 and the airport weather data from the Iowa Environmental Mesonet. After analysis of the factors influencing the flight delay, we chose the airline, depature day, month, week, origin airport, destination airport, flight distance, wind speed, visibility, sky coverage as the features to predict the flight delay severity using machine learning models. We compared the performance of K-Nearest Neighbors, Support Vector Machine, and Softmax Regression and found KNN to have the best performance in this task setting. 
+<br />The project was selected as 1 of 13 "incredible assignments" in a graduate level Recommender System and Web Mining course with over 300 students in UCSD. Some of the data analysis and visualization techniques are inspired by the Predicting flight delays tutorial by Fabien Daniel.
